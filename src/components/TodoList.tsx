@@ -11,7 +11,7 @@ interface TodoListProps {
 export function TodoList({ todos, onToggle, onDelete }: TodoListProps) {
   if (todos.length === 0) {
     return (
-      <div className="text-center py-12 text-gray-400">
+      <div className="text-center py-12 text-gray-400 dark:text-gray-500">
         <EmptyStateIcon />
         <p className="text-lg">No todos yet</p>
         <p className="text-sm mt-1">Add a task to get started</p>
